@@ -191,7 +191,7 @@ type Configuration struct {
 // Other possible values:
 // 	default:	Ensure config dir at default location
 // 	disable:	Disable config dir usage
-var ConfigPath string = "default"
+var ConfigPath string = "disable"
 
 var loadedDefaultConfig *Configuration
 
